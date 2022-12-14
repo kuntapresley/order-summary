@@ -1,0 +1,82 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+ }
+ *{
+    margin: 0;
+ }
+ html,body{
+    height:100%;
+ }
+ body{
+    line-height: 1.5;
+    -webkit-font-smoothing:antialised;
+ }
+ img,picture,video,canvas,svg{
+    display: block;
+    max-width: 100%;
+ }
+ input,button,textarea,select{
+    font: inherit;
+ }
+ p,h1,h2,h3,h4,h5,h6{
+    overflow-wrap: break-word;
+ }
+ #root,#__next{
+    isolation: isolate;
+ }
+body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:   hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+       
+}
+
+main{
+    
+    border:1px hsl(225, 100%, 94%) solid;
+    border-radius: 30px;
+}
+.order-summary-text{
+   background-color:  hsl(225, 100%, 98%);
+   padding: 1.5rem;
+}
+
+.price-plan{
+   
+   background-color:   hsl(225, 100%, 94%);
+   margin: 1rem;
+}
+p{
+   color:  hsl(224, 23%, 55%);
+}
+button{
+   background-color: hsl(245, 75%, 52%);
+   color: hsl(225, 100%, 94%);
+   padding: 10px;
+   width: 100%;
+   border-radius:0.9rem ;
+   margin-bottom: 1rem;
+}
+
+span{
+   color: hsl(245, 75%, 52%);
+   font-size: 1rem;
+   font-weight: 800;
+   text-decoration: underline;
+   float:right;
+}
+
+.attribution { font-size: 11px; 
+text-align: center; }
+.attribution a { 
+color: hsl(228, 45%, 44%); }
