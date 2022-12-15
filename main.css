@@ -1,0 +1,109 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialised;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+body {
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e0e8ff;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+}
+
+main {
+  border: 1px #e0e8ff solid;
+  border-radius: 30px;
+}
+
+.order-summary-text {
+  background-color: #f5f7ff;
+  padding: 1.5rem;
+}
+
+.price-box {
+  background-color: #e0e8ff;
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+p {
+  color: #7280a7;
+}
+
+button {
+  background-color: #3829e0;
+  color: #e0e8ff;
+  padding: 10px;
+  width: 100%;
+  border-radius: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.change {
+  text-decoration: underline;
+  color: #3829e0;
+}
+
+span {
+  color: #7280a7;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */
